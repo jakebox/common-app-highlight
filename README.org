@@ -1,0 +1,16 @@
+#+TITLE: common-app-highlight
+#+AUTHOR: Jake B
+
+~common-app-hightlight~ is an Emacs package that will color buffer text according to the number of characters in the buffer. I made this to use while writing my Common App, which allows only 150 characters in certain form boxes.
+
+* Usage
++ Activate: ~common-app-highlight-enable~
++ Deactivate: ~common-app-highlight-disable~
++ Manually color buffer once: ~common-app-highlight--calc-highlight~
++ *WIP* Set character limit: customize ~common-app-highlight-character-limit~
+  
+  
+* Todos
++ Allow customization of character limit/range
+  * Auto-color range/some sort of percentage-wise fit (ex: < 80% of limit gets color X)
+
