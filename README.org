@@ -11,6 +11,20 @@
   
   
 * Todos
-+ Allow customization of character limit/range
-  * Auto-color range/some sort of percentage-wise fit (ex: < 80% of limit gets color X)
++ [X] +Allow customization of character limit/range+
++ [ ] Use list for colors, or some math, as well as for numbers
+  * dolist instead of cond/setq, is that possible?
 
+
+* Stuff
+;; #FF8C00 ;; 50
+;; #FF9E00 ;; 40
+;; #FFD300 ;; 30
+;; #FFF600 ;; 20
+;; #C2FF00 ;; 15
+;; #35FF00 ;; 10
+;; #24FF00 ;; Exactly buff-char-count
+;; #FFD300
+;; #FF8C00
+;; #FF5700
+;; #FF0000
